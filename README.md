@@ -36,11 +36,13 @@ A smart web application that uses the **YOLOv8 model** to detect and classify di
 ## 🚀 Installation Guide
 
 ### 1. Clone repository
-
+```bash
 git clone https://github.com/poromvp/garbage-identify-ai.git
 cd garbage-identify-ai
+```
 
 ### 2. Create virtual environment (recommended)
+```bash
 python -m venv venv
 
 # Windows
@@ -48,12 +50,17 @@ venv\Scripts\activate
 
 # Linux/Mac
 source venv/bin/activate
+```
 
 ### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### ▶️ Run the Application
+```bash
 streamlit run app.py
+```
 
 ### 📌 Notes
 Make sure your camera is accessible if using live detection.
@@ -69,4 +76,3 @@ Python 3.12+ is recommended for best compatibility.
 ### 🎥 Live Camera
 ![Demo 2](detections/detect_001.jpg)
 
-```bash
