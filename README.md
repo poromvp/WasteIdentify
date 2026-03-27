@@ -37,8 +37,8 @@ A smart web application that uses the **YOLOv8 model** to detect and classify di
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/poromvp/garbage-identify-ai.git
-cd garbage-identify-ai
+git clone https://github.com/poromvp/WasteIdentify.git
+cd WasteIdentify
 ```
 
 ### 2. Create virtual environment (recommended)
